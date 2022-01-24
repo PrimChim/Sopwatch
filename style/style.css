@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    height: 80px;
+    width: 300px;
+    background-color: blue;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    font-size: 50px;
+}
+
+.buttons{
+    height: 80px;
+    width: 300px;
+    background-color:goldenrod;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    align-items: center;
+}
+
+button{
+    height: 40px;
+    width: 70px;
+    border-radius: 9px;
+    margin: 5px;
+}
